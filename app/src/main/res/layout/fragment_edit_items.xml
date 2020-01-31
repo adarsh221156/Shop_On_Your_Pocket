@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editItems">
+
+
+
+    <TextView
+        android:id="@+id/PriceEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/NameEdit"
+        android:layout_alignEnd="@+id/NameEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView20"
+        android:hint="price....."
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="For Editable Item Enter all new Data"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="ID"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Sale Price"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignEnd="@+id/textView20"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Profit"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignEnd="@+id/textView21"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView22"
+        android:layout_alignEnd="@+id/textView22"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Source"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignEnd="@+id/textView23"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Availabiity"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignEnd="@+id/textView24"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Items Sold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/idEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/textView18"
+        android:hint="id number....."
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/NameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/idEdit"
+        android:layout_alignEnd="@+id/idEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView19"
+        android:hint="item name....."
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/ProfitEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/PriceEdit"
+        android:layout_alignEnd="@+id/PriceEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView21"
+        android:hint="profit per item....."
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/DescriptionEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/ProfitEdit"
+        android:layout_alignEnd="@+id/ProfitEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView22"
+        android:hint="about item....."
+        android:paddingTop="4dp" />
+
+    <EditText
+        android:id="@+id/SourceEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/DescriptionEdit"
+        android:layout_alignEnd="@+id/DescriptionEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView23"
+        android:ems="10"
+        android:hint="source of item....."
+        android:inputType="textPersonName"
+        android:paddingTop="4dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/AvailableEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/SourceEdit"
+        android:layout_alignEnd="@+id/SourceEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView24"
+        android:ems="10"
+        android:hint="countable number....."
+        android:inputType="textPersonName"
+        android:paddingTop="4dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/SoldEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/AvailableEdit"
+        android:layout_alignEnd="@+id/AvailableEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView25"
+        android:ems="10"
+        android:hint="countable number....."
+        android:inputType="textPersonName"
+        android:paddingTop="4dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/editbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SoldEdit"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_alignEnd="@+id/SoldEdit"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="160dp"
+        android:text="Edit" />
+</RelativeLayout>

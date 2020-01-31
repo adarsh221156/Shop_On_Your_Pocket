@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile" android:title="Profile" name="Profile" type="menu" android:icon="@drawable/profileicon2"/>
+    <item android:id="@+id/searchItem" android:title="Search Item" name="searchItem" type="menu" android:icon="@drawable/searchitems"/>
+    <item android:id="@+id/totalProfit" android:title="Total Profit" name="totalProfit" type="menu" android:icon="@drawable/totalprofit1"/>
+    <item android:id="@+id/totalSale" android:title="Total Sale" name="totalSale" type="menu" android:icon="@drawable/totalsale"/>
+    <item android:id="@+id/addItem" android:title="Add Items" name="addItems" type="menu" android:icon="@drawable/additems"/>
+    <item android:id="@+id/editItem" android:title="Edit Item" name="editItem" type="menu" android:icon="@drawable/edititems"/>
+    <item android:id="@+id/dltItem" android:title="Delete Item" name="deleteItem" type="menu" android:icon="@drawable/dltitems"/>
+    <item android:id="@+id/history" android:title="History" name="history" type="menu" android:icon="@drawable/historyicon"/>
+    <item android:id="@+id/logout" android:title="Logout" name="LogOut" type="menu" android:icon="@drawable/logouticon"/>
+
+</menu>

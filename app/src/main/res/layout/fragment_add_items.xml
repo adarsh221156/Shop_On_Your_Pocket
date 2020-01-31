@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addItems">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="For New Item...."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="ItemName"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="SalePrice"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Profit per Item"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="ItemSource"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignEnd="@+id/textView15"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Availability"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/textView9"
+        android:ems="10"
+        android:hint="name here....."
+        android:inputType="textPersonName"
+        android:paddingLeft="4dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/salePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/itemName"
+        android:layout_alignEnd="@+id/itemName"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:hint="price....."
+        android:inputType="textPersonName"
+        android:paddingLeft="4dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/profit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/salePrice"
+        android:layout_alignEnd="@+id/salePrice"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView13"
+        android:ems="10"
+        android:hint="profit....."
+        android:inputType="textPersonName"
+        android:paddingLeft="4dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/profit"
+        android:layout_alignEnd="@+id/profit"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView14"
+        android:ems="10"
+        android:hint="description....."
+        android:inputType="textPersonName"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/item_source"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/item_description"
+        android:layout_alignEnd="@+id/item_description"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView15"
+        android:ems="10"
+        android:hint="source....."
+        android:inputType="textPersonName"
+        android:paddingLeft="4dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/availability"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/item_source"
+        android:layout_alignEnd="@+id/item_source"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/textView16"
+        android:ems="10"
+        android:hint="in counting number......"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/availability"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="114dp"
+        android:text="Add Item" />
+</RelativeLayout>

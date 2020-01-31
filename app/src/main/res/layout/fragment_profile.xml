@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="@drawable/background_1"
+    android:id="@+id/frameLayout">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="73dp"
+        android:gravity="center"
+        android:text="ShopType"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/shopTypeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView26"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_marginTop="12dp"
+        android:layout_toStartOf="@+id/shopTypeEdit"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignStart="@+id/textView28"
+        android:layout_alignEnd="@+id/textView28"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="Email"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_alignEnd="@+id/textView29"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="DOB"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView30"
+        android:layout_alignStart="@+id/textView30"
+        android:layout_alignEnd="@+id/textView30"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Contact "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_alignEnd="@+id/textView31"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Address"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/nameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/shopTypeEdit"
+        android:layout_alignEnd="@+id/shopTypeEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView28"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/emailEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/nameEdit"
+        android:layout_alignEnd="@+id/nameEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView29"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/dayEdit"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/emailEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView30"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/monthEdit"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/emailEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/dayEdit"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/yearEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/emailEdit"
+        android:layout_alignEnd="@+id/emailEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/monthEdit"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/monthEdit"
+        android:layout_alignEnd="@+id/yearEdit"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView31"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:id="@+id/addressEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView38"
+        android:layout_alignEnd="@+id/textView38"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/textView32"
+        android:paddingTop="2dp" />
+</RelativeLayout>

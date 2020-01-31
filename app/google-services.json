@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "563766985240",
+    "firebase_url": "https://shoponyourpocket.firebaseio.com",
+    "project_id": "shoponyourpocket",
+    "storage_bucket": "shoponyourpocket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563766985240:android:a97727123307e255a9b96d",
+        "android_client_info": {
+          "package_name": "com.example.shoponyourpocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563766985240-k52ni0bhoeq9jao7kbhg43brot6dh8rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoponyourpocket",
+            "certificate_hash": "ac111874bdbd77fb90c225af458c629729d2b0c4"
+          }
+        },
+        {
+          "client_id": "563766985240-dkkbmuo1r4ll9l7r11fe87ish9dtr6k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPXIohoyGUzXX6JGy0wihPebfDvLRl6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563766985240-dkkbmuo1r4ll9l7r11fe87ish9dtr6k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
